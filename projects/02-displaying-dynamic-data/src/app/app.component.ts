@@ -36,6 +36,9 @@ import { Component } from '@angular/core';
       border: solid 1px white;
       border-radius: 3px;
     }
+    button:hover {
+      background-color: gray;
+    }
   `,
 })
 export class AppComponent {
