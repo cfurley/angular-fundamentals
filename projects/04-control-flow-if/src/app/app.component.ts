@@ -29,8 +29,9 @@ import { AccountInfo } from './account-info';
 export class AppComponent {
   account: AccountInfo = {
     name: 'Melisa Evan',
-    membershipStatus: 'gold',
-    validThru: '12/2022',
-    CVV: '123',
+    card: '0100 0010 0000 0000',
+    membership: 'silver',
+    exp: '12/2022',
+    cvv: '123',
   };
 }
