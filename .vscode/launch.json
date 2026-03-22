@@ -4,14 +4,107 @@
   "configurations": [
     {
       "name": "ng serve",
-      "type": "chrome",
+      "type": "editor-browser",
       "request": "launch",
       "preLaunchTask": "npm: start",
       "url": "http://localhost:4200/"
     },
     {
-      "name": "ng test",
-      "type": "chrome",
+      "name": "ng serve hello-angular",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:hello-angular",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve displaying-dynamic-data",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:displaying-dynamic-data",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve component-composition",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:03-component-composition",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve control-flow-if",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:control-flow-if",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve control-flow-for",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:control-flow-for",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve input-output",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:input-output",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve routing-basics",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:routing-basics",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve routing-recap",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:routing-recap",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve template-driven-forms",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:template-driven-forms",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve reactive-forms",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:reactive-forms",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve dependency-injection",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:dependency-injection",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve angular-signals",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:angular-signals",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve deferrable-views",
+      "type": "editor-browser",
+      "request": "launch",
+      "preLaunchTask": "npm: start:deferrable-views",
+      "url": "http://localhost:4200/"
+    },
+
+    //////////////////////////////////
+    {
+      "name": "ng test *** Application ***",
+      "type": "editor-browser",
       "request": "launch",
       "preLaunchTask": "npm: test",
       "url": "http://localhost:9876/debug.html"
